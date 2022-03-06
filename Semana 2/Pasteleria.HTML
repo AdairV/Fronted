@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Ada</title>
+</head>
+<body>
+
+    <h1>Pasteleria Ada</h1>
+
+    <hr>
+
+    <h2>Pasteles</h2>
+    <label for="pasteles">escoja uno de nuestros pasteles</label>
+    <select id="pasteles" name="pasteles">
+        <option value="chocolate">chocolate $200</option>
+        <option value="vainilla">vainilla $250</option>
+        <option value="fresa">fresa $225</option>
+        <option value="cafe">cafe $</option>
+    </select>
+    
+    <h2>adornos y precios</h2><br>
+    <input type="checkbox" id="topping1" name="topping1" value="laminas_chocolate">
+    <label for="topping1">laminas de chocolate $100</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="rosas_betun">
+    <label for="topping2">rosas de betun $250</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="frutos_rojos">
+    <label for="topping3">frutos rojos $350</label><br><br>
+
+    <h2>sabores</h2><br>
+    <input type="checkbox" id="topping1" name="topping1" value="chocolate">
+    <label for="topping1">chocolate</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="vainilla">
+    <label for="topping2">vainilla</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="fresa">
+    <label for="topping3">fresa</label><br><br>
+    
+ 
+    <hr>
+    <!-- Formularios -->
+    <h2>pedidos</h2>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="apellido">telefono:</label>
+        <input type="text" id="telefono" name="telefono" form="form1"><br><br>
+        <label for="apellido">correo:</label>
+        <input type="text" id="correo" name="correo" form="form1"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+     
+    <footer>
+    <p>Dirección: Avenida coyoacan no. 25</p>
+    <p>Telefono: 01 900 849 2400</p>
+    <p>Horario: Lunes a Sábado de 10:00 am a 18:00 pm</p>
+
+    </footer>
+
+</body>
+</html>
